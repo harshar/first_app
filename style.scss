@@ -1,0 +1,25 @@
+@mixin rounded( $radius: 10px) {
+  border-radius: $radius;
+  -moz-border-radius-: $radius;
+  -webkit-border-radius: $radius;
+}
+
+#box1
+{
+	@include rounded;
+}
+#box2
+{
+	@include rounded;
+}
+
+.rounded{
+  border-radius: 10px;
+  -moz-border-radius-: 10px;
+  -webkit-border-radius: 10px;
+}
+#box3
+{
+	@extend rounded;
+	color :red;
+}

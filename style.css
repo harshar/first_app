@@ -1,0 +1,17 @@
+#box1 {
+  border-radius: 10px;
+  -moz-border-radius-: 10px;
+  -webkit-border-radius: 10px; }
+
+#box2 {
+  border-radius: 10px;
+  -moz-border-radius-: 10px;
+  -webkit-border-radius: 10px; }
+
+.rounded {
+  border-radius: 10px;
+  -moz-border-radius-: 10px;
+  -webkit-border-radius: 10px; }
+
+#box3 {
+  color: red; }
